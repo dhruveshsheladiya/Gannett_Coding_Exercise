@@ -15,10 +15,8 @@ class FlaskrTestCase(unittest.TestCase):
     '''
     def setUp(self):
         self.db_fd, app.app.config['PRODUCE'] = tempfile.mkstemp()
-        flaskr.app.testing = True
+        app.app.testing = True
         self.app = app.app.test_client()
-        with app.app.app_context():
-            app.init_db()
 
     '''
     Below Function will Delete the Database instance after ;
@@ -37,7 +35,7 @@ class FlaskrTestCase(unittest.TestCase):
     '''
     def test_db_Empty_or_not(self):
         rv = self.app.get('/')
-        assert b'No entries here so far' in rv.data
+        self.assertFalse ('No entries here so far' in rv.data)
 
 
 #initialization of main()
