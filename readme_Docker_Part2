@@ -1,0 +1,20 @@
+readme {Docker} Part-2
+
+To run API on Docker we need Docker Toolbox installed in our machine. After installing docker toolbox check "docker --version" to check docker installed successfully or not.
+
+1. try to run Hello world Image in docker using "docker run hello-world"
+
+2. If your hello-world file runs successfully then docker would have generated hello-world image file. 
+
+3. You can check if image generated or not by "docker image ls" or "docker images" you will see hello-world image created.
+
+4. Now you need dockerfile and requirements.txt, So create empty directory and move dockerfile and requirement.txt to that directory.
+
+5. Give "docker version" to activate the Docker 
+
+6. Give "docker build -t friendlyHello ." don't forget space and then after dot "." after image name.
+
+7. Your image would be generated, check using "docker image ls" 
+
+8. To run the API give command "docker run -p 8000:80 friendlyHello". Server would be started on http://127.0.0.1:8000
+
