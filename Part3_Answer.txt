@@ -1,0 +1,3 @@
+I believe that We can use Jenkins or any tool for creating Continuous Integration Pipelines.
+
+Jenkins is an open-source continuous integration (CI) tool that helps orchestrate the development processes (build, test, and deployment) with automation. In other words, Jenkins is one of the leading tools that would help a development team industrialize its processes. This is the developer’s teammate, whom you can ask to put your code into production (or staging) when you push code on specific branches (master and develop).  
