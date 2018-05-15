@@ -1,0 +1,21 @@
+In today’s era Trends like agile development, devops, and continuous integration speak to the modern enterprise’s need to build software hyper-efficiently -- and, if necessary, to turn on a dime.
+
+I believe that we can use Jenkins or any tool for creating Continuous Integration Pipelines.
+
+Jenkins is an open-source continuous integration (CI) tool that helps compose the development processes (build, test, and deployment) with automation. In other words, Jenkins is one of the leading tools that would help a development team industrialize its processes. This is the developer’s teammate, whom you can ask to put your code into production (or staging) when you push code on specific branches (master and develop).  
+
+Jenkins is monitors execution of repeated jobs, such as building Software, Running tests, automate tests, deploy them on Docker
+
+Continuous Integration is practice of merging all developer working copies to a shared mainline several times a day.
+
+Pipeline (Jenkins Pipeline) is a suite of plugins which supports implementing and integrating continuous delivery pipelines into Jenkins. A continuous delivery pipeline is an automated expression of your process for getting software from version control right through to your users and customers.
+
+Jenkins Pipeline features
+
+Code: Pipelines are implemented in code and typically checked into source control, giving teams the ability to edit, review, and iterate upon their delivery pipeline.
+Durable: Pipelines can survive both planned and unplanned restarts of the Jenkins master.
+Pausable: Pipelines can optionally stop and wait for human input or approval before continuing the Pipeline run.
+Versatile: Pipelines support complex real-world continuous delivery requirements, including the ability to fork/join, loop, and perform work in parallel.
+Extensible: The Pipeline plugin supports custom extensions to its DSL (Domain-Specific Language) and multiple options for integration with other plugins.
+
+References: https://jenkins.io/doc/
