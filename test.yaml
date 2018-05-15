@@ -1,0 +1,19 @@
+---
+# Every test file has one or more tests...
+test_name: To check if JSON is giving correct data or not?
+
+# ...and each test has one or more stages (e.g. an HTTP request)
+stages:
+  - name: Make sure we have the right ID
+
+    # Define the request to be made...
+    request:
+      url: http://127.0.0.1:8000/produceInventory
+      method: GET
+
+    # ...and the expected response code and body
+    response:
+      status_code: 200
+      body:
+      {"produceInventory": ["A12T-4GH7-QPL9-3N4M", "E5T6-9UI3-TH15-QR88", "YRT6-72AS-K736-L4AR", "TQ4C-VV6T-75ZX-1RMR"]}
+        #id: 1
